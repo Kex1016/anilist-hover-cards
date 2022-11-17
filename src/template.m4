@@ -11,6 +11,8 @@ m4_divert(0)m4_dnl
 // @match        https://anilist.co/*
 // @grant        GM_xmlhttpRequest
 // @license      GPL-3.0-or-later
+// @downloadURL  https://downloads.haiiro.moe/anilist/al-profile-cards.user.js
+// @updateURL    https://downloads.haiiro.moe/anilist/al-profile-cards.user.js
 // ==/UserScript==
 
 /*

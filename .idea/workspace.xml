@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e3cad04-3513-44b2-bfac-fc235aacb37c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9e3cad04-3513-44b2-bfac-fc235aacb37c" name="Changes" comment="oops, file format moment">
+      <change beforePath="$PROJECT_DIR$/src/template.m4" beforeDir="false" afterPath="$PROJECT_DIR$/src/template.m4" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,8 +72,30 @@
       <workItem from="1668035146215" duration="1284000" />
       <workItem from="1668119397026" duration="7324000" />
       <workItem from="1668422958199" duration="603000" />
-      <workItem from="1668714086248" duration="2574000" />
+      <workItem from="1668714086248" duration="2911000" />
     </task>
+    <task id="LOCAL-00001" summary="added README and LICENSE">
+      <created>1668716717145</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668716717145</updated>
+    </task>
+    <task id="LOCAL-00002" summary="idk">
+      <created>1668716737927</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668716737927</updated>
+    </task>
+    <task id="LOCAL-00003" summary="oops, file format moment">
+      <created>1668716822184</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668716822184</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,5 +114,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added README and LICENSE" />
+    <MESSAGE value="idk" />
+    <MESSAGE value="oops, file format moment" />
+    <option name="LAST_COMMIT_MESSAGE" value="oops, file format moment" />
   </component>
 </project>
