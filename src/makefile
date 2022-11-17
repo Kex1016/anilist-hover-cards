@@ -19,5 +19,3 @@ build: template.m4 css/style.scss main.js
 
 post-build:
 	$(info Build complete!)
-	xclip -selection clipboard < build/al-profile-cards.user.js
-	$(info The code has been copied to your clipboard.)
