@@ -26,7 +26,7 @@ There will be screenshots here soon.
 2. Run `npm install --global sass` to install Sass.
 3. Go in the `src` directory.
 4. Run `make` to build the script.
-5. The script will be in the `build` directory as `al-profile-cards.user.js`.
+5. The script will be in the `src/build` directory as `al-profile-cards.user.js`.
 
 # License
 
