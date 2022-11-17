@@ -9,9 +9,9 @@ A small userscript I made for fun. It only adds a hover card for a user when you
 - ???
 - Profit!
 
-# Screenshots
+# Preview
 
-There will be screenshots here soon.
+![Screenshot 1](img/preview.png)
 
 # Building
 
