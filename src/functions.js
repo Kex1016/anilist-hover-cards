@@ -117,6 +117,9 @@ async function retrieveUser(userid) {
             }
             return val;
         }));
+
+        user[userid] = await getAnilistUser(userid);
+        return user[userid];
     } else {
         let userObj = await getAnilistUser(userid);
         userObj.expires = Date.now() + 1000 * 60 * 60 * 0.5; // 30 minutes
@@ -137,10 +140,9 @@ async function retrieveUser(userid) {
     }
 }
 
-function renderCard(el, parent) {
+function renderCard(el, parent) { // parent is basically just here in case we ever need it
     // Give it a good old mouse enter
     el.addEventListener("mouseenter", async (e) => {
-        // test if card is there
         let uid;
         if (el.innerText !== "") {
             let username = el.innerText;
@@ -158,8 +160,7 @@ function renderCard(el, parent) {
         // if still hovered
         if (el.matches(":hover")) {
             let user = await retrieveUser(uid);
-            let cardContent = await getCardContent(user);
-            card.innerHTML = cardContent;
+            card.innerHTML = await getCardContent(user);
             card.style.backgroundColor = user.options.profileColor;
             card.style.backgroundImage = `url(${user.bannerImage})`;
         }
