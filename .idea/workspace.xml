@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e3cad04-3513-44b2-bfac-fc235aacb37c" name="Changes" comment="Added the link to the script">
+    <list default="true" id="9e3cad04-3513-44b2-bfac-fc235aacb37c" name="Changes" comment="bumped version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/functions.js" afterDir="false" />
     </list>
@@ -75,7 +75,7 @@
       <workItem from="1668035146215" duration="1284000" />
       <workItem from="1668119397026" duration="7324000" />
       <workItem from="1668422958199" duration="603000" />
-      <workItem from="1668714086248" duration="4367000" />
+      <workItem from="1668714086248" duration="4784000" />
     </task>
     <task id="LOCAL-00001" summary="added README and LICENSE">
       <created>1668716717145</created>
@@ -133,7 +133,28 @@
       <option name="project" value="LOCAL" />
       <updated>1668717831794</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fixed users not loading initially after expiring">
+      <created>1668718512596</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668718512596</updated>
+    </task>
+    <task id="LOCAL-00010" summary="removed xclip copy from post-build">
+      <created>1668718547462</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668718547462</updated>
+    </task>
+    <task id="LOCAL-00011" summary="bumped version">
+      <created>1668718633851</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1668718633851</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +183,9 @@
     <MESSAGE value="Credits to README.md" />
     <MESSAGE value="Didn't pay attention to license, huge bruh moment" />
     <MESSAGE value="Added the link to the script" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the link to the script" />
+    <MESSAGE value="fixed users not loading initially after expiring" />
+    <MESSAGE value="removed xclip copy from post-build" />
+    <MESSAGE value="bumped version" />
+    <option name="LAST_COMMIT_MESSAGE" value="bumped version" />
   </component>
 </project>

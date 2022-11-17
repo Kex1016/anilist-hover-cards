@@ -143,14 +143,10 @@ async function retrieveUser(userid) {
 function renderCard(el, parent) { // parent is basically just here in case we ever need it
     // Give it a good old mouse enter
     el.addEventListener("mouseenter", async (e) => {
-        let uid;
-        if (el.innerText !== "") {
-            let username = el.innerText;
-            uid = (await getAnilistID(username)).id;
-        } else {
-            let url = el.style.backgroundImage.replace(/url\((['"])?(.*?)\1\)/gi, '$2').split(',')[0];
-            uid = url.split("/").pop().split("-")[0].slice(1);
-        }
+        let url = el.style.backgroundImage.replace(/url\((['"])?(.*?)\1\)/gi, '$2').split(',')[0];
+        let uid = url.split("/").pop().split("-")[0].slice(1);
+
+        if (!uid) return;
 
         const card = makeCard();
         card.innerHTML = loadingHTML;
