@@ -141,6 +141,11 @@ async function retrieveUser(userid) {
 }
 
 function renderCard(el, parent) { // parent is basically just here in case we ever need it
+    // clear mouseenter and mouseleave events (bruh they have to add a "removeEventListener" function that actually works)
+    let elClone = el.cloneNode(true);
+    el.parentNode.replaceChild(elClone, el);
+    el = elClone;
+
     // Give it a good old mouse enter
     el.addEventListener("mouseenter", async (e) => {
         let url = el.style.backgroundImage.replace(/url\((['"])?(.*?)\1\)/gi, '$2').split(',')[0];
@@ -164,10 +169,12 @@ function renderCard(el, parent) { // parent is basically just here in case we ev
 
     // Give it a good old mouse leave
     el.addEventListener("mouseleave", async (e) => {
-        const card = el.querySelector(".cakes_card");
+        const card = el.querySelectorAll(".cakes_card");
         if (card) {
-            card.classList.add("cakes_card--hide");
-            setTimeout(() => card.remove(), 300);
+            card.forEach(c => {
+                c.classList.add("cakes_card--hide");
+                setTimeout(() => c.remove(), 300);
+            });
         }
     });
 }

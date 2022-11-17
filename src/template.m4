@@ -1,12 +1,12 @@
 m4_divert(-1)m4_dnl
 m4_changequote(<m4<,>m4>)
-m4_define(SCRIPT_VERSION, 1.0.1)
+m4_define(SCRIPT_VERSION, 1.0.6)
 m4_divert(0)m4_dnl
 // ==UserScript==
 // @name         AniList Profile Hover Cards
 // @namespace    https://anilist.co/user/cakes
 // @version      SCRIPT_VERSION
-// @description  Extra parts for Anilist.co
+// @description  It only adds a hover card for a user when you hover over their avatar.
 // @author       cakes
 // @match        https://anilist.co/*
 // @grant        GM_xmlhttpRequest
