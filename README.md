@@ -5,7 +5,7 @@ A small userscript I made for fun. It only adds a hover card for a user when you
 # Installation
 
 - Install [Tampermonkey](https://www.tampermonkey.net/) or [Greasemonkey](https://www.greasespot.net/) for your browser.
-- Then install the script from `(link to be added)`.
+- Then install the script from [this link](https://downloads.haiiro.moe/anilist/al-profile-cards.user.js).
 - ???
 - Profit!
 

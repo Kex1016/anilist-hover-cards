@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e3cad04-3513-44b2-bfac-fc235aacb37c" name="Changes" comment="Credits to README.md">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="9e3cad04-3513-44b2-bfac-fc235aacb37c" name="Changes" comment="Didn't pay attention to license, huge bruh moment" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +15,7 @@
         <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="MIT" />
+        <option value="GPL-3.0" />
       </list>
     </option>
   </component>
@@ -73,7 +72,7 @@
       <workItem from="1668035146215" duration="1284000" />
       <workItem from="1668119397026" duration="7324000" />
       <workItem from="1668422958199" duration="603000" />
-      <workItem from="1668714086248" duration="3360000" />
+      <workItem from="1668714086248" duration="3670000" />
     </task>
     <task id="LOCAL-00001" summary="added README and LICENSE">
       <created>1668716717145</created>
@@ -117,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668717445188</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Didn't pay attention to license, huge bruh moment">
+      <created>1668717729746</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668717729746</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +150,7 @@
     <MESSAGE value="Template now includes update link" />
     <MESSAGE value="Clarified README.md" />
     <MESSAGE value="Credits to README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Credits to README.md" />
+    <MESSAGE value="Didn't pay attention to license, huge bruh moment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Didn't pay attention to license, huge bruh moment" />
   </component>
 </project>
