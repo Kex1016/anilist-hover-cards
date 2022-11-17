@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e3cad04-3513-44b2-bfac-fc235aacb37c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +17,7 @@
         <option value="SCSS File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="MIT" />
       </list>
     </option>
   </component>
@@ -72,7 +74,7 @@
       <workItem from="1668035146215" duration="1284000" />
       <workItem from="1668119397026" duration="7324000" />
       <workItem from="1668422958199" duration="603000" />
-      <workItem from="1668714086248" duration="2060000" />
+      <workItem from="1668714086248" duration="2574000" />
     </task>
     <servers />
   </component>
