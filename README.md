@@ -28,6 +28,11 @@ There will be screenshots here soon.
 4. Run `make` to build the script.
 5. The script will be in the `src/build` directory as `al-profile-cards.user.js`.
 
+# Credits
+
+- [AniList](https://anilist.co/) for the API.
+- [hohMiyazawa/Automail](https://github.com/hohMiyazawa/Automail) for making me realize that I can just make a template and build into that instead of doing framework shenanigans.
+
 # License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
