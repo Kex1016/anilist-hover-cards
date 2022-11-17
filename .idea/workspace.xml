@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e3cad04-3513-44b2-bfac-fc235aacb37c" name="Changes" comment="oops, file format moment">
-      <change beforePath="$PROJECT_DIR$/src/template.m4" beforeDir="false" afterPath="$PROJECT_DIR$/src/template.m4" afterDir="false" />
+    <list default="true" id="9e3cad04-3513-44b2-bfac-fc235aacb37c" name="Changes" comment="Credits to README.md">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -72,7 +73,7 @@
       <workItem from="1668035146215" duration="1284000" />
       <workItem from="1668119397026" duration="7324000" />
       <workItem from="1668422958199" duration="603000" />
-      <workItem from="1668714086248" duration="2911000" />
+      <workItem from="1668714086248" duration="3360000" />
     </task>
     <task id="LOCAL-00001" summary="added README and LICENSE">
       <created>1668716717145</created>
@@ -95,7 +96,28 @@
       <option name="project" value="LOCAL" />
       <updated>1668716822184</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Template now includes update link">
+      <created>1668717246319</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668717246319</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Clarified README.md">
+      <created>1668717282304</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668717282304</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Credits to README.md">
+      <created>1668717445188</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668717445188</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +141,9 @@
     <MESSAGE value="added README and LICENSE" />
     <MESSAGE value="idk" />
     <MESSAGE value="oops, file format moment" />
-    <option name="LAST_COMMIT_MESSAGE" value="oops, file format moment" />
+    <MESSAGE value="Template now includes update link" />
+    <MESSAGE value="Clarified README.md" />
+    <MESSAGE value="Credits to README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Credits to README.md" />
   </component>
 </project>
