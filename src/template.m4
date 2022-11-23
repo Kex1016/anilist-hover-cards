@@ -1,6 +1,6 @@
 m4_divert(-1)m4_dnl
 m4_changequote(<m4<,>m4>)
-m4_define(SCRIPT_VERSION, 1.0.6)
+m4_define(SCRIPT_VERSION, 1.1.0)
 m4_divert(0)m4_dnl
 // ==UserScript==
 // @name         AniList Profile Hover Cards
