@@ -83,6 +83,12 @@ const getCardContent = async (user) => {
     `
 }
 
+const privateProfileHTML = `
+<div class="cakes_card__info">
+    <h1 class="cakes_card__info__name private">Private Profile</h1>
+</div>
+`
+
 function makeCard() {
     const card = document.createElement('div')
     card.classList.add('cakes_card')
@@ -122,6 +128,10 @@ async function retrieveUser(userid) {
         return user[userid];
     } else {
         let userObj = await getAnilistUser(userid);
+        if (userObj === null) userObj = {
+            expires: Date.now() + 1000 * 60 * 60 * 0.5,
+            private: true
+        }
         userObj.expires = Date.now() + 1000 * 60 * 60 * 0.5; // 30 minutes
         user[userid] = userObj;
 
@@ -161,9 +171,13 @@ function renderCard(el, parent) { // parent is basically just here in case we ev
         // if still hovered
         if (el.matches(":hover")) {
             let user = await retrieveUser(uid);
-            card.innerHTML = await getCardContent(user);
-            card.style.backgroundColor = user.options.profileColor;
-            card.style.backgroundImage = `url(${user.bannerImage})`;
+            if (user.private) {
+                card.innerHTML = privateProfileHTML;
+            } else {
+                card.innerHTML = await getCardContent(user);
+                card.style.backgroundColor = user.options.profileColor;
+                card.style.backgroundImage = `url(${user.bannerImage})`;
+            }
         }
     });
 
